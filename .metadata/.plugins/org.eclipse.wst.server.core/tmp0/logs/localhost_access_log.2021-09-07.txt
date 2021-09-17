@@ -1,0 +1,16 @@
+127.0.0.1 - - [07/Sep/2021:11:36:54 -0500] "GET / HTTP/1.1" 404 687
+0:0:0:0:0:0:0:1 - - [07/Sep/2021:11:36:58 -0500] "GET /SistemaVentas/Index.jsp HTTP/1.1" 200 1577
+0:0:0:0:0:0:0:1 - - [07/Sep/2021:11:36:58 -0500] "GET /SistemaVentas/img/acceso-usuarios.png HTTP/1.1" 200 103166
+0:0:0:0:0:0:0:1 - - [07/Sep/2021:11:37:02 -0500] "POST /SistemaVentas/Validar HTTP/1.1" 200 25
+127.0.0.1 - - [07/Sep/2021:11:40:01 -0500] "GET / HTTP/1.1" 404 687
+0:0:0:0:0:0:0:1 - - [07/Sep/2021:11:40:02 -0500] "GET /SistemaVentas/Index.jsp HTTP/1.1" 200 1577
+0:0:0:0:0:0:0:1 - - [07/Sep/2021:11:40:22 -0500] "POST /SistemaVentas/Validar HTTP/1.1" 200 25
+127.0.0.1 - - [07/Sep/2021:11:41:37 -0500] "GET / HTTP/1.1" 404 687
+0:0:0:0:0:0:0:1 - - [07/Sep/2021:11:41:51 -0500] "GET /SistemaVentas/Index.jsp HTTP/1.1" 200 1577
+0:0:0:0:0:0:0:1 - - [07/Sep/2021:11:43:20 -0500] "GET /SistemaVentas/Index.jsp HTTP/1.1" 200 1604
+0:0:0:0:0:0:0:1 - - [07/Sep/2021:11:43:38 -0500] "POST /SistemaVentas/Validar HTTP/1.1" 200 25
+127.0.0.1 - - [07/Sep/2021:11:43:57 -0500] "GET / HTTP/1.1" 404 687
+0:0:0:0:0:0:0:1 - - [07/Sep/2021:11:43:58 -0500] "GET /SistemaVentas/Index.jsp HTTP/1.1" 200 1604
+127.0.0.1 - - [07/Sep/2021:11:47:26 -0500] "GET / HTTP/1.1" 404 687
+0:0:0:0:0:0:0:1 - - [07/Sep/2021:11:47:40 -0500] "GET /SistemaVentas/Index.jsp HTTP/1.1" 200 1604
+0:0:0:0:0:0:0:1 - - [07/Sep/2021:11:47:43 -0500] "POST /SistemaVentas/Validar HTTP/1.1" 200 25

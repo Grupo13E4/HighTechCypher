@@ -1,0 +1,46 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+	<link rel="stylesheet" href="CssIndex.css">
+	<title>Login</title>
+</head>
+<body>
+	<!--Inicio Banner-->
+   	        <div class = "banner">
+                <h1>TIENDA HIGH TECH CYPHER</h1>
+            </div>
+    <!--Fin Banner-->
+	
+	<!-- Inicio Login -->
+	<div class = "container mt-4 col-lg-4">
+	
+			<div class = "card-body">
+				<form class="form-sign" action="Validar" method="post">
+					<div class = "form-group text-center">
+						<h3>Inicie Sesión</h3>
+						<img src="img/icon.png" class="icon" alt="70" width="80"/>
+						<label>Bienvenidos al Sistema</label>
+					</div>
+					<div class = "form-group">
+						
+						<input type="text" name="txtuser" class="form form-control mt-4 text-light" placeholder="Usuario">					
+					</div>
+					<div class = "form-group">
+					
+						<input type="password" name="txtpass" class="form form-control mt-4 text-light" placeholder="Password">	
+					</div>
+					<div>
+						<input type="submit" name="accion" value="Ingresar" class="btn btn-primary btn-lm mt-4">
+						<input type="reset" name="accion" value="Cancelar" class="btn btn-primary btn-lm mt-4">
+					</div>
+				</form>
+			</div>
+	</div>
+	<!-- Fin Login -->
+	
+</body>
+</html>

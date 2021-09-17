@@ -1,0 +1,39 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+<title>Paulo Acero Web</title>
+</head>
+<body>
+	<h1 class="center">Bienvenidos a mi página Web Dinámica</h1>
+	
+	<div class="container mt-4 col-lg-4">		
+		<div class="card col-sm-10">		
+			<div class = "card-body">			
+				<form class="form-sign" method="post" action="./DemoServlet">
+					<div class="form-group text-center">
+						<h3>Login</h3>
+						<img alt="40" src="img/acceso-usuarios.png" width="80">
+						<label>Bienvenidos al Sistema</label>
+					</div>
+					<div class = "form-group">
+						<label>Usuario:</label>
+						<input type="text" name="txtusuario" class="form-control">					
+					</div>
+					<div class= "form-group">
+						<label>Password:</label>
+						<input type="password" name="txtpassword" class="form-control">	
+					</div>
+					<div class="form-group">
+						<input type="submit" name="accion" value="Ingresar" class="btn btn-primary btn-b mt-2">
+						
+					</div>
+				</form>	
+			</div>	
+		</div>	
+	</div>	
+</body>
+</html>

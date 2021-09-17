@@ -1,0 +1,5 @@
+package co.com.pauloacero.Crudproductos.model;
+
+public class Producto {
+
+}
