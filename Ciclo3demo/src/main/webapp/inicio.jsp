@@ -8,7 +8,7 @@
 	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 	<link rel="stylesheet" href="CssIndex.css">
 	<link rel="icon" href="img/icon.jpg" type="image/x-icon">
-	<title>Login Cypher</title>
+	<title>Login Cypher :)</title>
 </head>
 <body>
 		
